@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/oleksii-ivanov/Library/Application Support/Herd/bin/php84",
+            "args": [
+                "/Users/oleksii-ivanov/Desktop/Projects/0xAny/artisan",
+                "boost:mcp"
+            ]
+        },
+        "herd": {
+            "command": "/Users/oleksii-ivanov/Library/Application Support/Herd/bin/php84",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/oleksii-ivanov/Desktop/Projects/0xAny"
+            }
+        }
+    }
+}
