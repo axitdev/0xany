@@ -21,7 +21,8 @@ return new class extends Migration
             $table->string('type')
                 ->default(AssetTypeEnum::TOKEN);
             $table->integer('decimals');
-            $table->string('logo');
+            $table->string('logo')
+                ->nullable();
             $table->text('description');
             $table->string('website')
                 ->nullable();

@@ -22,7 +22,7 @@ class AssetFactory extends Factory
 
         return [
             'name' => ucfirst($name),
-            'symbol' => strtoupper(substr($name, 0, 3)),
+            'symbol' => strtoupper($name),
             'type' => $this->faker->randomElement(AssetTypeEnum::cases()),
             'decimals' => $this->faker->numberBetween(1, 18),
             'logo' => $this->faker->image(),
