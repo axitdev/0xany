@@ -40,8 +40,9 @@
     36 => 'Termwind\\Laravel\\TermwindServiceProvider',
     37 => 'Pest\\Laravel\\PestServiceProvider',
     38 => 'Saloon\\Laravel\\SaloonServiceProvider',
-    39 => 'App\\Providers\\AppServiceProvider',
-    40 => 'App\\Providers\\VoltServiceProvider',
+    39 => 'Yaza\\LaravelGoogleDriveStorage\\LaravelGoogleDriveStorageServiceProvider',
+    40 => 'App\\Providers\\AppServiceProvider',
+    41 => 'App\\Providers\\VoltServiceProvider',
   ),
   'eager' => 
   array (
@@ -69,8 +70,9 @@
     21 => 'Termwind\\Laravel\\TermwindServiceProvider',
     22 => 'Pest\\Laravel\\PestServiceProvider',
     23 => 'Saloon\\Laravel\\SaloonServiceProvider',
-    24 => 'App\\Providers\\AppServiceProvider',
-    25 => 'App\\Providers\\VoltServiceProvider',
+    24 => 'Yaza\\LaravelGoogleDriveStorage\\LaravelGoogleDriveStorageServiceProvider',
+    25 => 'App\\Providers\\AppServiceProvider',
+    26 => 'App\\Providers\\VoltServiceProvider',
   ),
   'deferred' => 
   array (

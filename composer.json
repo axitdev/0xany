@@ -1,13 +1,13 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/livewire-starter-kit",
+    "name": "axitdev/0xany",
     "type": "project",
-    "description": "The official Laravel starter kit for Livewire.",
+    "description": "Crypto price service.",
     "keywords": [
-        "laravel",
-        "framework"
+        "crypro",
+        "api"
     ],
-    "license": "MIT",
+    "license": "proprietary",
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
@@ -16,7 +16,8 @@
         "livewire/flux": "^2.1.1",
         "livewire/volt": "^1.7.0",
         "maatwebsite/excel": "^3.1",
-        "saloonphp/laravel-plugin": "^3.0"
+        "saloonphp/laravel-plugin": "^3.0",
+        "yaza/laravel-google-drive-storage": "^4.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -27,7 +28,8 @@
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
         "pestphp/pest": "^4.0",
-        "pestphp/pest-plugin-laravel": "^4.0"
+        "pestphp/pest-plugin-laravel": "^4.0",
+        "roave/security-advisories": "dev-latest"
     },
     "autoload": {
         "psr-4": {

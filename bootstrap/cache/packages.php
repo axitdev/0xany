@@ -135,4 +135,15 @@
       0 => 'Saloon\\Laravel\\SaloonServiceProvider',
     ),
   ),
+  'yaza/laravel-google-drive-storage' => 
+  array (
+    'aliases' => 
+    array (
+      'LaravelGoogleDriveStorage' => 'Yaza\\LaravelGoogleDriveStorage\\Facades\\LaravelGoogleDriveStorage',
+    ),
+    'providers' => 
+    array (
+      0 => 'Yaza\\LaravelGoogleDriveStorage\\LaravelGoogleDriveStorageServiceProvider',
+    ),
+  ),
 );
