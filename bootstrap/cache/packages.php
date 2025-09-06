@@ -113,4 +113,15 @@
       0 => 'Pest\\Laravel\\PestServiceProvider',
     ),
   ),
+  'saloonphp/laravel-plugin' => 
+  array (
+    'aliases' => 
+    array (
+      'Saloon' => 'Saloon\\Laravel\\Facades\\Saloon',
+    ),
+    'providers' => 
+    array (
+      0 => 'Saloon\\Laravel\\SaloonServiceProvider',
+    ),
+  ),
 );
