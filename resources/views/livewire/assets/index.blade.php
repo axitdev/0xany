@@ -47,11 +47,6 @@ new class extends Component {
 }; ?>
 
 <section class="w-full">
-    <div class="mb-6">
-        <flux:heading size="xl" level="1">{{ __('Asset Management') }}</flux:heading>
-        <flux:subheading size="lg" class="mb-6">{{ __('Manage your cryptocurrency and financial assets') }}</flux:subheading>
-    </div>
-
     <div class="space-y-6">
         <!-- Header with Create Button -->
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
@@ -182,12 +177,12 @@ new class extends Component {
                 </div>
 
                 <!-- Pagination -->
-                <div class="px-6 py-4 border-t border-gray-200 dark:border-zinc-600">
+                <div class="px-6 py-4 border-t border-zinc-100 dark:border-zinc-600">
                     {{ $this->assets->links() }}
                 </div>
             @else
                 <div class="px-6 py-12 text-center">
-                    <flux:icon name="cube" class="mx-auto h-12 w-12 text-gray-400 mb-4" />
+                    <flux:icon name="cube" class="mx-auto h-12 w-12 text-zinc-300 mb-4" />
                     <flux:heading size="lg" class="mb-2">No assets found</flux:heading>
                     <flux:text class="mb-6">
                         @if($search || $typeFilter)

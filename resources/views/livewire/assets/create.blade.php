@@ -66,7 +66,7 @@ new class extends Component {
         <flux:subheading size="lg" class="mb-6">{{ __('Add a new cryptocurrency or financial asset') }}</flux:subheading>
     </div>
 
-    <div class="max-w-4xl">
+    <div>
         <form wire:submit="save" class="space-y-6">
             <div class="bg-white dark:bg-zinc-700 rounded-lg shadow p-6">
                 <flux:heading size="lg" class="mb-4">{{ __('Basic Information') }}</flux:heading>
@@ -140,7 +140,7 @@ new class extends Component {
                         </label>
                     </div>
                     <div class="flex items-center justify-center w-full">
-                        <label for="logo-upload" class="flex flex-col items-center justify-center w-full h-32 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500">
+                        <label for="logo-upload" class="flex flex-col items-center justify-center w-full h-32 border-2 border-zinc-200 border-dashed rounded-lg cursor-pointer bg-zinc-50 dark:hover:bg-zinc-700 dark:bg-zinc-600 hover:bg-gray-100 dark:border-zinc-500 dark:hover:border-zinc-400">
                             @if ($logo)
                                 <div class="flex flex-col items-center justify-center pt-5 pb-6">
                                     <svg class="w-8 h-8 mb-4 text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">

@@ -24,6 +24,17 @@
       0 => 'Laravel\\Pail\\PailServiceProvider',
     ),
   ),
+  'laravel/pulse' => 
+  array (
+    'aliases' => 
+    array (
+      'Pulse' => 'Laravel\\Pulse\\Facades\\Pulse',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laravel\\Pulse\\PulseServiceProvider',
+    ),
+  ),
   'laravel/roster' => 
   array (
     'providers' => 
