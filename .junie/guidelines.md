@@ -11,6 +11,7 @@ This application is a Laravel application and its main Laravel ecosystems packag
 - php - 8.4.12
 - laravel/framework (LARAVEL) - v12
 - laravel/prompts (PROMPTS) - v0
+- laravel/pulse (PULSE) - v1
 - livewire/flux (FLUXUI_FREE) - v2
 - livewire/livewire (LIVEWIRE) - v3
 - livewire/volt (VOLT) - v1
@@ -110,6 +111,14 @@ protected function isAccessible(User $user, ?string $path = null): bool
 
 ## Enums
 - Typically, keys in an Enum should be TitleCase. For example: `FavoritePerson`, `BestLake`, `Monthly`.
+
+
+=== herd rules ===
+
+## Laravel Herd
+
+- The application is served by Laravel Herd and will be available at: https?://[kebab-case-project-dir].test. Use the `get-absolute-url` tool to generate URLs for the user to ensure valid URLs.
+- You must not run any commands to make the site available via HTTP(s). It is _always_ available through Laravel Herd.
 
 
 === laravel/core rules ===
@@ -562,12 +571,4 @@ $pages->assertNoJavascriptErrors()->assertNoConsoleLogs();
 | overflow-ellipsis | text-ellipsis |
 | decoration-slice | box-decoration-slice |
 | decoration-clone | box-decoration-clone |
-
-
-=== tests rules ===
-
-## Test Enforcement
-
-- Every change must be programmatically tested. Write a new test or update an existing test, then run the affected tests to make sure they pass.
-- Run the minimum number of tests needed to ensure code quality and speed. Use `php artisan test` with a specific filename or filter.
 </laravel-boost-guidelines>
